@@ -4,8 +4,6 @@ import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 import _ from "lodash";
 import { v4 } from "uuid";
 
-
-
 function App() {
   const [text, setText] = useState("")
   const [state, setState] = useState({
