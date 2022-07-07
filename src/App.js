@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
-import _ from "lodash";
 import { v4 } from "uuid";
+import _ from "lodash";
 
 function App() {
   const [text, setText] = useState("")
